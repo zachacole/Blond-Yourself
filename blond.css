@@ -1,0 +1,92 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins:400,600';
+
+* {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
+
+.desktop-canvas {
+  display: none;
+}
+
+.canvas-container {
+  width: 300px;
+  margin: 50px auto 0;
+}
+
+.input-container {
+  width: 200px;
+  margin: 50px auto;
+}
+
+.button-container {
+  width: 200px;
+  margin: 0 auto;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  background: #d8dce6;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+.active {
+  background: #00ADEF;
+  transition: all 0.3s ease;
+}
+
+.active:hover {
+  background: #0294CC;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.social {
+  width: 320px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.social a {
+  color: #00ADEF;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid rgba(0,173,239,0);
+}
+
+.social a:hover {
+  border-bottom: 2px solid rgba(0,173,239,1);
+}
+
+@media only screen and (min-width: 660px) {
+  .small-canvas {
+    display: none;
+  }
+
+  .desktop-canvas {
+    display: block;
+  }
+
+  .canvas-container {
+    width: 650px;
+    margin: 100px auto 0;
+  }
+}

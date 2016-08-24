@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="blond.css">
+  <title>Blond Yourself</title>
+  <meta name="description" content="Make your own Blonde album art.">
+  <!-- Start GA Tracking -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-77450858-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- End GA Tracking -->
+</head>
+<body>
+  <div class="small-canvas">
+    <div class="canvas-container">
+      <canvas id="s-blond-canvas" height="300" width="300"></canvas>
+    </div>
+    <div class="input-container">
+      <input type="file" id="s-imgLoad" name="imgLoad"/>
+    </div>
+    <div class="button-container">
+      <a id="s-download" class="download-button"><button id="s-download-style" class="">Download</button></a>
+    </div>
+  </div>
+  <div class="desktop-canvas">
+    <div class="canvas-container">
+      <canvas id="blond-canvas" height="650" width="650"></canvas>
+    </div>
+    <div class="input-container">
+      <input type="file" id="imgLoad" name="imgLoad"/>
+    </div>
+    <div class="button-container">
+      <a id="download" class="download-button"><button id="download-style" class="">Download</button></a>
+    </div>
+  </div>
+  <div class="social">
+    <p>Made with haste and love by <a href="http://zcole.me">Zach Cole</a>.</p>
+    <p>Go 'head and <a href="https://twitter.com/intent/tweet?text=Blond%20yourself%3A%20http%3A//zcole.me/blond%20by%20@zachacole">tweet</a> about it.</p>
+  </div>
+  <script src="s-blond.js"></script>
+  <script src="blond.js"></script>
+</body>
+</html>
